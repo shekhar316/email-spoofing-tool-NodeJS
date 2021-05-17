@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        body {
+            font-family: 'Source Code Pro', monospace;
+            background-image: url(https://images.unsplash.com/photo-1504639725590-34d0984388bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=667&q=80);
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+
+        .footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            font-family: 'Source Code Pro', monospace;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .jumbo {
+            color: white;
+            text-align: justify;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+    </style>
+
+
+
+
+    <title>Email Spoofing</title>
+</head>
+
+<body>
+    <div class="jumbo p-5 rounded-lg m-3">
+        <h1 class="display-4">Email Spoofing</h1>
+        <p class="lead">Email spoofing is a form of cyber attack in which a hacker sends an email that has been
+            manipulated to seem as if it originated from a trusted source. Email spoofing is a popular tactic used in
+            phishing and spam campaigns because people are more likely to open an email when they think it has been sent
+            by a known sender. The goal of email spoofing is to trick recipients into opening or responding to the
+            message.</p>
+        <hr class="my-4">
+        <p>This tool is for Educational Purpose Only. Don't misuse it.</p>
+    </div>
+    <br>
+
+    <div class="card container">
+        <div class="card-header">
+            Spoofing Tool
+        </div>
+        <div class="card-body">
+            <form action="/sendFakeMail" method="POST">
+                <div class="form-group">
+                    <label for="fromEmail">From Email address (Fake Sender)</label>
+                    <input type="email" name = "senderMail" class="form-control" id="from-email" placeholder="name@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="toEmail">To Email address (Receiver)</label>
+                    <input type="email" name = "receiverMail" class="form-control" id="to-email" placeholder="name@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" name = "subjectMail" class="form-control" id="subject" placeholder="name@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="msg">Message</label>
+                    <textarea name = "msgMail" class="form-control msgArea" id="msg-area" rows="3"></textarea>
+                </div>
+                <input type="submit" class="btn btn-dark">
+            </form>
+        </div>
+    </div>
+    <br><br>
+
+    <div class="footer">
+        &copy; shekhar316
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
