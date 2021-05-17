@@ -9,6 +9,8 @@
 Email spoofing is a form of cyber attack in which a hacker sends an email that has been manipulated to seem as if it originated from a trusted source. Email spoofing is a popular tactic used in phishing and spam campaigns because people are more likely to open an email when they think it has been sent by a known sender. The goal of email spoofing is to trick recipients into opening or responding to the message.
 
 
+![Email Spoofing](/img/download.png)
+
 ### npm modules used:
 * express
 * body-parser
