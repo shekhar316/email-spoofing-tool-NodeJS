@@ -23,11 +23,11 @@ app.post("/sendFakeMail", (req, res) => {
   let msg = req.body.msgMail;
 
   let mailTransporter = nodemailer.createTransport({
-    host: "cloud.googiehost.com",
-    port: 587,
+    host: "host_address",
+    port: PORT_NUMBER,
     auth: {
-      user: "shekhart@shekhar.thats.im",
-      pass: "Shekhar@316",
+      user: "username@domain.com",
+      pass: "Password",
     },
   });
 
