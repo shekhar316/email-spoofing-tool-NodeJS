@@ -1,9 +1,9 @@
 # Email Spoofing Tool
 
-<!-- > ### Live Demo:
-> [https://email-spoofing-tool.herokuapp.com/](https://email-spoofing-tool.herokuapp.com/)
+> ### Live Demo:
+<!-- > [https://email-spoofing-tool.herokuapp.com/](https://email-spoofing-tool.herokuapp.com/) -->
 > 
-> Disclaimer: This tool is for educational purpose only. Don't misuse it. -->
+> Disclaimer: This tool is for educational purpose only. Don't misuse it.
 
 ### Email Spoofing:
 Email spoofing is a form of cyber attack in which a hacker sends an email that has been manipulated to seem as if it originated from a trusted source. Email spoofing is a popular tactic used in phishing and spam campaigns because people are more likely to open an email when they think it has been sent by a known sender. The goal of email spoofing is to trick recipients into opening or responding to the message.
